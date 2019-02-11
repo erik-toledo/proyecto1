@@ -1,0 +1,20 @@
+#include <stdio.h>
+main()
+{
+	int i=0, j=0, altura=0;
+
+	printf("Que altura?: ");
+	scanf("%d",&altura);
+
+
+	for(i=0;i<=altura;i++)
+	{
+		for(j=0;j<i;j++)
+		{
+			printf("# ");
+		}
+		printf("\n");
+	}
+	
+	return 0;
+}
